@@ -1,0 +1,30 @@
+export type Target = {
+    id: string
+    tahun: string
+    target: string
+    created_at: string
+    id_kebun: string
+    nama_kebun: string
+    luas_kebun: string
+    jumlah_pohon_kebun: string
+    tahun_tanam_kebun: string
+    rotasi_panen_kebun: string
+    jenis_topografi_dominan_kebun: string
+    jenis_tanah_dominan_kebun: string
+    alamat_kebun: string
+    latitude_kebun: string
+    longitude_kebun: string
+    date_created_kebun: string
+    id_varietas: string
+    nama_varietas: string
+    created_at_varietas: string
+    id_user: string
+    nama_user: string
+    image_user: string
+    email_user: string
+    is_active_user: string
+    created_at_user: string
+    id_role: string
+    nama_role: string
+    created_at_role: string
+}

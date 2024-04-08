@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="210mm" height="297mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 21000 29700"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:#05A18F}
+    .fil1 {fill:#FA6E00}
+    .fil2 {fill:#05A18F;fill-rule:nonzero}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="fil0" d="M15113.02 6975.5l0 0 0 8579.8c0,567.14 -464.04,1031.17 -1031.19,1031.17l0 0c-567.16,0 -1031.18,-464.03 -1031.18,-1031.17l0 -6517.43c0,-1134.31 928.06,-2062.37 2062.37,-2062.37z"/>
+  <g id="_105553206661216">
+   <circle class="fil1" cx="8699.25" cy="11770.77" r="403.05"/>
+   <circle class="fil1" cx="9964.57" cy="11791.26" r="402.99"/>
+   <ellipse class="fil1" cx="11259.56" cy="11786.69" rx="403.07" ry="403.04"/>
+  </g>
+  <path class="fil2" d="M9979.42 6975.5c1326.91,0 2528.28,537.91 3397.93,1407.56 869.65,869.65 1407.56,2071 1407.56,3397.92 0,1326.91 -537.91,2528.28 -1407.56,3397.93 -869.65,869.65 -2071.02,1407.56 -3397.93,1407.56 -1326.92,0 -2528.27,-537.91 -3397.92,-1407.56 -869.65,-869.65 -1407.56,-2071.02 -1407.56,-3397.93 0,-1326.92 537.91,-2528.27 1407.56,-3397.92 869.65,-869.65 2071,-1407.56 3397.92,-1407.56zm1990.7 2814.8c-509.4,-509.4 -1213.22,-824.48 -1990.7,-824.48 -777.47,0 -1481.29,315.08 -1990.69,824.48 -509.39,509.39 -824.47,1213.21 -824.47,1990.68 0,777.48 315.08,1481.3 824.47,1990.7 509.4,509.39 1213.22,824.47 1990.69,824.47 442.78,0 861.66,-102.24 1234.35,-284.31l1179.18 96.32 -121.76 -991.8c329.48,-460.94 523.4,-1025.48 523.4,-1635.38 0,-777.47 -315.08,-1481.29 -824.47,-1990.68z"/>
+ </g>
+</svg>

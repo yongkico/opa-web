@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap'); */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --swiper-navigation-size: 24px !important;
+        --swiper-navigation-color: white;
+        font-size: 0.95rem;
+    }
+
+    html {
+        @apply scroll-smooth font-quicksand font-medium;
+    }
+
+    h1 {
+        @apply text-2xl font-bold dark:text-white md:text-3xl;
+    }
+
+    h2,
+    h3 {
+        @apply font-bold;
+    }
+
+    hr {
+        @apply dark:border-gray-700;
+    }
+
+    thead {
+        @apply whitespace-nowrap;
+    }
+
+    th {
+        @apply p-4;
+    }
+
+    tbody,
+    td {
+        @apply p-4 text-sm font-semibold md:text-base;
+    }
+
+    label {
+        @apply text-sm font-semibold text-dark dark:text-light md:text-base;
+    }
+}
+
+@layer components {
+    .thead-primary {
+        @apply bg-primary text-white;
+    }
+
+    .icon {
+        @apply h-4 w-4 text-dark dark:text-light;
+    }
+
+    .btn-icon {
+        @apply ml-auto inline-flex h-max w-max items-center gap-x-2 rounded-lg bg-primary px-6 py-1.5 font-bold text-light duration-150 hover:bg-accent active:scale-95 md:ml-0 md:py-2;
+    }
+
+    .btn-primary {
+        @apply h-max rounded-lg bg-primary px-8 py-1.5 font-bold text-light duration-150 hover:bg-accent active:scale-95 md:py-2;
+    }
+
+    .btn-secondary {
+        @apply h-max rounded-lg bg-secondary px-8 py-1.5 font-bold text-light duration-150 hover:bg-orange-600 active:scale-95 md:py-2;
+    }
+
+    .btn-edit {
+        @apply h-max rounded-lg bg-blue-700 px-8 py-1.5 font-bold text-light duration-150 hover:bg-blue-800 active:scale-95 md:py-2;
+    }
+
+    .btn-danger {
+        @apply h-max rounded-lg bg-red-600 px-8 py-1.5 font-bold text-light duration-150 hover:bg-red-700 active:scale-95 md:py-2;
+    }
+
+    .btn-outline {
+        @apply h-max rounded-lg border border-primary px-8 py-1.5 font-bold text-primary duration-150 hover:bg-primary hover:text-light active:scale-95 disabled:cursor-not-allowed disabled:border-primary/40 disabled:text-primary/50 disabled:hover:bg-transparent disabled:active:scale-100 md:py-2;
+    }
+
+    .apply-dark {
+        @apply bg-light text-dark duration-300 dark:border-primary/25 dark:bg-dark dark:text-light;
+    }
+
+    .input-primary {
+        @apply apply-dark rounded-lg border border-gray-200 p-2 placeholder:text-neutral-400;
+    }
+
+    .input-secondary {
+        @apply apply-dark w-48 rounded-lg border-none p-2;
+    }
+
+    .pill-primary {
+        @apply h-max w-max rounded-lg bg-secondary px-8 py-1.5 font-bold text-light duration-150 hover:bg-orange-700;
+    }
+
+    .pill-secondary {
+        @apply h-max w-max rounded-lg bg-[#E2BC82] px-8 py-1.5 font-bold text-light duration-150 hover:bg-secondary;
+    }
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+    @apply h-1 w-1;
+}
+
+::-webkit-scrollbar-track {
+    @apply dark:bg-dark;
+}
+
+::-webkit-scrollbar-thumb {
+    @apply bg-primary;
+}
+
+.tox.tox-tinymce {
+    @apply rounded-lg border border-gray-400 dark:border-primary/25;
+}
+
+.selected-date:not([disabled]) {
+    font-weight: bold;
+    background-color: #01b6a2;
+    color: aliceblue;
+}
+.selected-date:hover:not([disabled]) {
+    border-color: #01b6a2;
+    color: #01b6a2;
+}
+
+.today {
+    font-weight: bold;
+    font-size: 140%;
+    color: #01b6a2;
+}
